@@ -1,0 +1,67 @@
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.login-cover {
+  width: 50%;
+  background: transparent url("../images/login-cover.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.login-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FCF7F2;
+}
+
+.login-form {
+  min-width: 26rem;
+}
+
+.bg-muted {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    min-height: calc(100vh - 56px);
+  }
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.message {
+  position: fixed;
+  top: 4rem;
+  right: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99999;
+}
+/*# sourceMappingURL=style.css.map */

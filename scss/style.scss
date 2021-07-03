@@ -1,0 +1,50 @@
+.wrap {
+  display: flex;
+  min-height: 100vh;
+}
+
+.login-cover {
+  width: 50%;  
+  background: transparent url('../images/login-cover.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.login-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCF7F2;
+}
+
+.login-form {
+  min-width: 26rem;
+}
+
+.bg-muted {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar {
+  @media (min-width: 992px) {
+    min-height: calc(100vh - 56px);
+  }
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.message {
+  position: fixed;
+  top: 4rem;
+  right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
